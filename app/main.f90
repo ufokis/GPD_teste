@@ -5,7 +5,7 @@ program main
     
     ! Declaração das variáveis
     character(64):: name ! Nome do conjunto de dados
-    double precision f(-6:6), xmin, xmax, q2min, q2max, x, Q, alphasPDF, I1, I2 ! Variáveis numéricas
+    double precision f(-6:6), xmin, xmax, q2min, q2max, x, Q, I1, I2 ! Variáveis numéricas
     double precision:: step ! Tamanho do passo
     integer:: num_steps ! Número de passos
     character(20):: arg ! Argumento da linha de comando

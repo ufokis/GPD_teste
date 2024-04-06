@@ -38,7 +38,11 @@ module Teste_GPDs
       ! Sub-rotina para inicializar um conjunto de PDFs pelo índice
       Subroutine InitPDF(i)
           integer, intent(in):: i ! Índice do conjunto de PDFs
-      End Subroutine InitPDF    
+      End Subroutine InitPDF
+
+      function alphasPDF(Q2)
+          real(8) :: Q2, alphasPDF
+      end function  
     end interface
   
   end module Teste_GPDs
